@@ -17,8 +17,7 @@ name: Java Build with Maven & Deploy to AKS
 
 on:
   push:
-    branches: 
-      - main
+    branches: [ "main" ]
     paths:
       - 'board-api/**'
       - 'k8s_manifests/**'
