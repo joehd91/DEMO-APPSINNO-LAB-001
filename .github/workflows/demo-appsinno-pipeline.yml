@@ -18,12 +18,12 @@ name: Java Build with Maven & Deploy to AKS
 on:
   push:
     branches: 
-     - main
+      - main
     paths:
-     - 'board-api/**'
-     - 'k8s_manifests/**'
-     - '!board-api/**.md'
-     - '!.github/**'
+      - 'board-api/**'
+      - 'k8s_manifests/**'
+      - '!board-api/**.md'
+      - '!.github/**'
 
   # pull_request:
   #   paths:
