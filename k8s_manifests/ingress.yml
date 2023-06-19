@@ -11,7 +11,7 @@ spec:
   tls:
     - hosts:
         - appsinnodnslabel.koreacentral.cloudapp.azure.com
-      secretName: tls-secret-fhs4h
+      secretName: tls-secret
   rules:
     - host: appsinnodnslabel.koreacentral.cloudapp.azure.com
       http:
