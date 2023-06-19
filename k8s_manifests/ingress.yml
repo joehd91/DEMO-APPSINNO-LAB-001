@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - appsinno.koreacentral.cloudapp.azure.com
-      secretName: tls-secret
+        - appsinnodnslabel.koreacentral.cloudapp.azure.com
+      secretName: tls-secret-fhs4h
   rules:
-    - host: appsinno.koreacentral.cloudapp.azure.com
+    - host: appsinnodnslabel.koreacentral.cloudapp.azure.com
       http:
         paths:
           - path: /(.*)
